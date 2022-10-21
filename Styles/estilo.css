@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+article {
+  background-color: rgb(128, 128, 128);
+  border: 1px solid black;
+  text-align: center;
+  height: 49vh;
+}
+
+figure {
+  height: 40%;
+  width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+h3, p, input[type=button] {
+  margin: 0.5em;
+}
+
+input[type=button] {
+  margin-bottom: 1rem;
+  width: 60%;
+}/*# sourceMappingURL=estilo.css.map */
